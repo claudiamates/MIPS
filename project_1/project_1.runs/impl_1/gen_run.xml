@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1559126688">
+  <File Type="PWROPT-DRC" Name="proiect1_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="proiect1_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="proiect1_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="proiect1_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="proiect1.tcl"/>
+  <File Type="OPT-HWDEF" Name="proiect1.hwdef"/>
+  <File Type="RDI-RDI" Name="proiect1.vdi"/>
+  <File Type="OPT-DCP" Name="proiect1_opt.dcp"/>
+  <File Type="OPT-DRC" Name="proiect1_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="proiect1_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="proiect1_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="proiect1_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="proiect1_placed.dcp"/>
+  <File Type="PLACE-IO" Name="proiect1_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="proiect1_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="proiect1_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="proiect1_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="proiect1_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="proiect1_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="proiect1_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="proiect1_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="proiect1_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="proiect1_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="proiect1_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="proiect1_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="proiect1_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="proiect1_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="proiect1_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="proiect1_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="proiect1_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="proiect1_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="proiect1.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="proiect1_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="proiect1.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="proiect1_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="proiect1.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="proiect1_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="proiect1.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="proiect1_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="proiect1_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="proiect1_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="proiect1_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="proiect1_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="proiect1_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="proiect1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="proiect1_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="proiect1_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="proiect1_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="proiect1_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="proiect1_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="proiect1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="proiect1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="proiect1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="proiect1.bit"/>
+  <File Type="BITSTR-RBT" Name="proiect1.rbt"/>
+  <File Type="BITSTR-NKY" Name="proiect1.nky"/>
+  <File Type="BITSTR-BMM" Name="proiect1_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="proiect1.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="proiect1.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/regfile.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSMR.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ssd.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MPG.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MEM.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IFetch.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSM.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EX.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/InstrDecode.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/proiect1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UAL.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RF_RAM.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="proiect1"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/project_1/Basys3_test_env.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Basys3_test_env.xdc"/>
+        <Attr Name="ImportTime" Val="1551824970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/project_1/Basys3_test_env.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
